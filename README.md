@@ -44,4 +44,4 @@ No external libraries are required. The program only uses Python's built-in `ran
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/number-guessing-game.git
+   git clone https://github.com/ArnautCristian/Guessing-Game.git
