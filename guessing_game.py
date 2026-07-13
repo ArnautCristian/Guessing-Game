@@ -3,9 +3,9 @@ def play_guess():
     
     print("Welcome to the Guessing Game")
     print("Choose the level by typing the numbers 1, 2 or 3 for:")
-    print("1. Easy: 1-100 with 6 attempts")
-    print("2. Medium: 1-500 with 11 attempts")
-    print("3. Hard: 1-1000 with 15 attempts")
+    print("1. Easy: 1-100 with 7 attempts")
+    print("2. Medium: 1-500 with 9 attempts")
+    print("3. Hard: 1-1000 with 11 attempts")
     
     while True:
         try:
@@ -13,8 +13,8 @@ def play_guess():
             if level in[1, 2, 3]:
                 levels = {
                     1: (100,7),
-                    2: (500,11),
-                    3: (1000,15)
+                    2: (500,9),
+                    3: (1000,11)
                 }
                 n,a = levels[level]
                 break
